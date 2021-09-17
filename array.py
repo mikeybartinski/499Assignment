@@ -13,3 +13,4 @@ while x < len(arr)/2:
 print (arr)
 
 success = 2
+alt = 2
