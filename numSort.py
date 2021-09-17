@@ -1,6 +1,22 @@
-arr = [2,5,4,7,1,8,3,2,]
+arr = [64, 4, 97, 22, 38, 62, 55]
 
-arr.sort()
+n = len(arr)
 
-print(arr)
+for i in range(n):
+
+
+ for j in range(0, n - i - 1):
+
+
+  if arr[j] > arr[j + 1]:
+     arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
+
+
+
+
+
+print("Sorted array is:")
+for i in range(len(arr)):
+    print("%d" % arr[i]),
 
