@@ -11,6 +11,7 @@ for i in range(n):
  for j in range(0, n - i - 1):
   temp = len(lst[j])
   temp2 = len(lst[j+1])
+  print(lst)
 
 
   if temp > temp2:
